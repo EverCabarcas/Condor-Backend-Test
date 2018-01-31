@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var schema_providers = new Schema({
     firstName: {type: String, required: true},
-    lastName:  {type: String, required: true},
+    lastName: {type: String, required: true},
     middleName: {type: String, required: true},
     email: {type: String, required: true},
     projectedStartDate: {type: Date, required: true},
@@ -12,9 +12,9 @@ var schema_providers = new Schema({
     staffStatus: {type: String, required: true},
     assignedTo: {type: Number, required: true},
     status: {type: String, required: true},
-    createdBy:{type: Number, required: true},
+    createdBy: {type: Number, required: true},
     createdAt: {type: Date, required: true},
-    updatedBy:{type: Number, required: true},
+    updatedBy: {type: Number, required: true},
     updatedAt: {type: Date, required: true},
     specialty: {}
 });
