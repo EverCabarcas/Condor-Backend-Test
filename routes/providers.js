@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
     providers.getproviders(req, res, next);
 });
 
-router.get('/:d', function (req, res, next) {
+router.get('/:id', function (req, res, next) {
     providers.getprovider(req, res, next);
 });
 
