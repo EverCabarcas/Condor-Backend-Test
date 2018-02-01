@@ -36,7 +36,7 @@ exports.getproviders = function (req, res, next) {
 };
 
 exports.getprovider = function (req, res, next) {
-    providers_model.findById(req.params.id, function (err, provider) {
+    providers_model.findById(req.query.id, function (err, provider) {
         if (err) {
             return res.send('problem to get provider ' + err);
         }
